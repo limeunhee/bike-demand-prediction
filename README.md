@@ -62,24 +62,20 @@ Lastly, correlation between features were visualized using a heatmap. Features h
 <b>Figure X.</b> corr
 </p>
 
-## Evaluation Metric
- Root mean square log error (RMSLE) is used as model evaluation metric. RMSLE gives extra penalty for underestimation compared to overeestimation. (In comparison, RMSE gives equal penalty for over and underestimation).
-
-### Linear regression 
-A simple linear regression model gives RMLSE = 0. 5878. 
-
-### Linear regression with Lasso
-A linear regression with Lasso regularization optimzed using grid search gives RMSLE = 0.629 (alpha = 0.01, max_iter = 100)
-
-### Linear regression with Ridge
-A linear regression with Ridge regularization optimzed using grid search gives RMSLE = 0.5788 (alpha = 0.18, max_iter = 100)
-
-### Random Forest Regression
-A random forest model was optimized with grid search, and the best RF model gives RMSLE = 0.3333 (n_estimators = 500, max_depth = None, min_samples_split = 2).
-
-### Gradient Boosting Regression
-A gradient boosting regression model was optimized with grid search, and the best GBR model gives RMSLE = 
+## Evaluation Metrics and model comparison
+ Root mean square log error (RMSLE) is used as model evaluation metric. RMSLE gives extra penalty for underestimation compared to overeestimation. (In comparison, RMSE gives equal penalty for over and underestimation). Linear regression, linear regression with lasso, linear regression with ridge,  random forest, and gradient boosted models were optimized through grid search and their rmsle values were [0.5878, 0.5896,0.578828, 0.3324, 0.2964] respectively. 
+ 
+ <p align="center">
+  <img src="./image/model_comparison.png" width=800/ >
+<br>
+<b>Figure X.</b> corr
+</p>
+ 
 
 ### Best Performing Model and Evaluation on Kaggle
-The best performing GBR model was used to make prediction on Kaggle test set. The RMSLE value was 0.38922, equivalnet to top 5% score on the leaderboard. 
-
+The best performing GBR model was used to make prediction on Kaggle test set. The RMSLE value was 0.38922, equivalnet to top 5% score on the leaderboard. Below is a cdaily bikeshare demand plot that combines train set and predicted values using best model on Kaggle test set. 
+ <p align="center">
+  <img src="./image/prediction.png" width=800/ >
+<br>
+<b>Figure X.</b> corr
+</p>
