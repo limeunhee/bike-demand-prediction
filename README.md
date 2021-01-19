@@ -36,9 +36,40 @@ First, a simple linear regression model is used as a baseline model.
 
 
 <p align="center">
-  <img src="./images/cnn.png" >
+  <img src="./images/bar.png" >
 <br>
-<b>Figure 3.</b> Architecture of CNN model with 2 convolutional layers and confusion matrix from predictions on test dataset
+<b>Figure X.</b> Bar
 </p>
 
 
+<p align="center">
+  <img src="./images/cat.png" >
+<br>
+<b>Figure X.</b> cat
+</p>
+
+<p align="center">
+  <img src="./images/corrplot.png" >
+<br>
+<b>Figure X.</b> corr
+</p>
+
+<p align="center">
+  <img src="./images/pointplot.png" >
+<br>
+<b>Figure X.</b> point
+</p>
+
+
+<p align="center">
+  <img src="./images/time.png" >
+<br>
+<b>Figure X.</b> time
+</p>
+
+
+<p align="center">
+  <img src="./images/weather.png" >
+<br>
+<b>Figure X.</b> weather
+</p>
