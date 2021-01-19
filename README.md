@@ -70,7 +70,7 @@ First, a simple linear regression model is used as a baseline model.
 
 
 <p align="center">
-  <img src="./image/corrplot.png" >
+  <img src="./image/corrplot.png" width=800/ >
 <br>
 <b>Figure X.</b> corr
 </p>
