@@ -36,29 +36,18 @@ First, a simple linear regression model is used as a baseline model.
 
 
 <p align="center">
-  <img src="./image/bar.png" >
-<br>
-<b>Figure X.</b> Bar
-</p>
-
-
-<p align="center">
   <img src="./image/cat.png" >
 <br>
 <b>Figure X.</b> cat
 </p>
 
 <p align="center">
-  <img src="./image/corrplot.png" >
+  <img src="./image/bar.png" >
 <br>
-<b>Figure X.</b> corr
+<b>Figure X.</b> Bar
 </p>
 
-<p align="center">
-  <img src="./image/pointplot.png" >
-<br>
-<b>Figure X.</b> point
-</p>
+
 
 
 <p align="center">
@@ -67,9 +56,21 @@ First, a simple linear regression model is used as a baseline model.
 <b>Figure X.</b> time
 </p>
 
+<p align="center">
+  <img src="./image/pointplot.png" >
+<br>
+<b>Figure X.</b> point
+</p>
 
 <p align="center">
   <img src="./image/weather.png" >
 <br>
 <b>Figure X.</b> weather
+</p>
+
+
+<p align="center">
+  <img src="./image/corrplot.png" >
+<br>
+<b>Figure X.</b> corr
 </p>
