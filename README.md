@@ -18,7 +18,7 @@ First, number of observations for categorical variables are explored. There are 
 <p align="center">
   <img src="./image/cat.png" >
 <br>
-<b>Figure X.</b> cat
+<b>Figure 1.</b> Categorical features in dataset
 </p>
 
 Next, distribution of features were explored using barplots. Mean bike share count per hour was in order of Summer > Fall > Winter > Spring. In terms of months, June and July had the highest bikeshare demand and January, February, and March had the least bikeshare demand. While the average bikeshare demand was similar for holiday vs non-holiday and workday vs non-workday, there are higher number of outliers in non-holidays and workdays. In terms of weather conditions, clear day had the highest average bikeshare demand.
@@ -26,7 +26,7 @@ Next, distribution of features were explored using barplots. Mean bike share cou
 <p align="center">
   <img src="./image/bar.png" >
 <br>
-<b>Figure X.</b> Bar
+<b>Figure 2.</b> Distribution of features from barplots
 </p>
 
 By plotting the bike share count by time, it is evident that overall bikeshare demand has increased from 2011 to 2012, and summer months have the highest total number of bike shares. The 0 values in weekly and daily timeseries are the test set that is set aside by Kaggle for evaluation.
@@ -34,7 +34,7 @@ By plotting the bike share count by time, it is evident that overall bikeshare d
 <p align="center">
   <img src="./image/time.png" >
 <br>
-<b>Figure X.</b> time
+<b>Figure 3.</b> Bike share count by time
 </p>
 
 By plotting the bike share count by hour, impact of features on hourly demand is clear. In terms of weather, Spring time has the least demand all across hours. While during morning commute hours(7-9am), demand in Summer, Fall, Winter were similar, during afternoon commute hours(4-7pm), demand varied for those seasons. On holidays and non-work days, there were less bike demand for commute hours, and more demand during the work hours compared to non-holidays and work days. Lastly, day of week (0-Monday, 5-Sunday) shows that bike demand pattern is drastically different on weekday vs weekends. Additionally, on weekdays, Monday and Friday have slightly different demand pattern compared to other weekdays. 
@@ -43,7 +43,7 @@ By plotting the bike share count by hour, impact of features on hourly demand is
 <p align="center">
   <img src="./image/pointplot.png" >
 <br>
-<b>Figure X.</b> point
+<b>Figure 4.</b> Hourly and monthly averages of bike share demand
 </p>
 
 From scattering plots of demand count vs weather, we see slight positive correlations with temperatures (both absolute and felt temperatures) and slight negative correlations with windspeed and humidity. Since temp and atemp have correlation value close to 1, one of the two features can be dropped for modeling. 
@@ -51,7 +51,7 @@ From scattering plots of demand count vs weather, we see slight positive correla
 <p align="center">
   <img src="./image/weather.png" >
 <br>
-<b>Figure X.</b> weather
+<b>Figure 5.</b> Weather conditions and bike share counts
 </p>
 
 Lastly, correlation between features were visualized using a heatmap. Features hour,temperature, year, month have highest positive correlation with the count ( target variable), and humidity shows high negative correlation with the count. 
@@ -59,7 +59,7 @@ Lastly, correlation between features were visualized using a heatmap. Features h
 <p align="center">
   <img src="./image/corrplot.png" width=800/ >
 <br>
-<b>Figure X.</b> corr
+<b>Figure 6.</b> Correlation plot of features
 </p>
 
 ## Evaluation Metrics and model comparison
@@ -68,7 +68,7 @@ Lastly, correlation between features were visualized using a heatmap. Features h
  <p align="center">
   <img src="./image/model_comparison.png" width=800/ >
 <br>
-<b>Figure X.</b> corr
+<b>Figure 7.</b> Final model RMSLE comparisons
 </p>
  
 
@@ -77,5 +77,6 @@ The best performing GBR model was used to make prediction on Kaggle test set. Th
  <p align="center">
   <img src="./image/prediction.png" width=800/ >
 <br>
-<b>Figure X.</b> corr
+<b>Figure 8.</b> Final test set prediction from Gradient Boosted Model
 </p>
+
